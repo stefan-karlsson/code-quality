@@ -1,0 +1,43 @@
+{
+  "name": "@aviene/eslint-config-node",
+  "description": "ESLint config for Node.js projects",
+  "version": "0.0.0",
+  "author": {
+    "name": "Stefan Karlsson",
+    "email": "iam@stefan-karlsson.se",
+    "url": "https://stefan-karlsson.se"
+  },
+  "bugs": {
+    "url": "https://github.com/stefan-karlsson/code-quality/issues"
+  },
+  "dependencies": {
+    "@aviene/eslint-config-base": "workspace:^",
+    "eslint-plugin-n": "^16.6.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "node"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.mjs",
+    "./v20": "./v20.mjs",
+    "./optional": "./optional.mjs",
+    "./style": "./style.mjs"
+  },
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefan-karlsson/code-quality.git"
+  }
+}

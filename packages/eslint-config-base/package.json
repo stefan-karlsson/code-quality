@@ -1,0 +1,37 @@
+{
+  "name": "@aviene/eslint-config-base",
+  "description": "ESLint configuration preset",
+  "version": "0.0.0",
+  "author": "Stefan Karlsson <iam@stefan-karlsson.se>",
+  "bugs": {
+    "url": "https://github.com/stefan-karlsson/code-quality/issues"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^1.7.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "config",
+    "eslint"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.mjs",
+    "./optional": "./optional.mjs",
+    "./style": "./style.mjs"
+  },
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefan-karlsson/code-quality.git"
+  }
+}
