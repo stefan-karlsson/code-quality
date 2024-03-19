@@ -8,6 +8,9 @@
     "email": "iam@stefan-karlsson.se",
     "url": "https://stefan-karlsson.se"
   },
+  "scripts": {
+    "ci:publish": "pnpm publish -r"
+ },
   "repository": {
     "type": "git",
     "url": "git://github.com/stefan-karlsson/code-quality.git"
