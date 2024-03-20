@@ -1,7 +1,7 @@
 {
-  "name": "@aviene/eslint-config-base",
-  "description": "ESLint configuration preset",
-  "version": "1.0.0",
+  "name": "@aviene/eslint-config-react",
+  "description": "ESLint config for React projects",
+  "version": "0.0.0",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
@@ -11,15 +11,20 @@
     "url": "https://github.com/stefan-karlsson/code-quality/issues"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin": "^1.7.0",
-    "eslint-plugin-import": "^2.29.1"
+    "@aviene/eslint-config-base": "workspace:^",
+    "@babel/core": "^7.24.1",
+    "@babel/eslint-parser": "^7.24.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "engines": {
     "node": ">=20"
   },
   "keywords": [
     "config",
-    "eslint"
+    "eslint",
+    "react"
   ],
   "license": "MIT",
   "type": "module",
