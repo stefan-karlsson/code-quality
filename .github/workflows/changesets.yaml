@@ -62,10 +62,10 @@ jobs:
         id: install-dependencies
         run: pnpm install
 
-      - name: 🏗️ Build
-        id: build-the-mono-repo
-        run: |
-          pnpm build
+      # - name: 🏗️ Build
+      #   id: build-the-mono-repo
+      #   run: |
+      #     pnpm build
 
       - name: 📣 Create Release Pull Request or Publish to npm
         id: changesets
