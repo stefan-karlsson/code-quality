@@ -1,5 +1,11 @@
 # @aviene/eslint-config-typescript
 
+## 1.0.2
+
+### Patch Changes
+
+- [`e764bbf`](https://github.com/stefan-karlsson/code-quality/commit/e764bbf961af0c68ef20d56244a373993776fd0b) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Added required @typescript-eslint/\* packages
+
 ## 1.0.1
 
 ### Patch Changes
