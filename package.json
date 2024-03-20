@@ -9,14 +9,18 @@
     "url": "https://stefan-karlsson.se"
   },
   "scripts": {
-    "ci:publish": "pnpm publish -r"
- },
+    "changeset": "changeset",
+    "publish:packages": "changeset publish",
+    "version:packages": "changeset version"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/stefan-karlsson/code-quality.git"
   },
+  "packageManager": "pnpm@8.15.5",
   "license": "MIT",
-  "devDependencies": {
-    "@changesets/cli": "^2.27.1"
+  "dependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@changesets/changelog-github": "^0.5.0"
   }
 }

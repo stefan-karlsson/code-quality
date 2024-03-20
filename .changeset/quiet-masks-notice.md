@@ -5,4 +5,6 @@
 "@aviene/prettier-config": major
 ---
 
-Initial release
+# ESLint & Prettier
+
+The first release of this repository contains eslint and prettier configurations.
