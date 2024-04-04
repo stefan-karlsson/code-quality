@@ -1,7 +1,7 @@
 {
   "name": "@aviene/eslint-config-typescript",
   "description": "ESLint config for TypeScript projects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",

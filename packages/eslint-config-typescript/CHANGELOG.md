@@ -1,5 +1,11 @@
 # @aviene/eslint-config-typescript
 
+## 1.0.3
+
+### Patch Changes
+
+- [`5efc122`](https://github.com/stefan-karlsson/code-quality/commit/5efc122224a9863e6b5a8e4ee1e089ca37cfe4e2) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Add @typescript-eslint/eslint-plugin and @typescript-eslint/parser as peer dependencies
+
 ## 1.0.2
 
 ### Patch Changes
