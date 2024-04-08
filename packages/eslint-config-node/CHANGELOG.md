@@ -1,5 +1,16 @@
 # @aviene/eslint-config-node
 
+## 1.2.0
+
+### Minor Changes
+
+- [`73bd242`](https://github.com/stefan-karlsson/code-quality/commit/73bd242738869811d14132712fc6d79adac738d4) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Add eslint version ^8 as a peerDependency
+
+### Patch Changes
+
+- Updated dependencies [[`73bd242`](https://github.com/stefan-karlsson/code-quality/commit/73bd242738869811d14132712fc6d79adac738d4)]:
+  - @aviene/eslint-config-base@1.3.0
+
 ## 1.1.0
 
 ### Minor Changes
