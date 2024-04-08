@@ -1,5 +1,11 @@
 # @aviene/eslint-config-typescript
 
+## 1.0.4
+
+### Patch Changes
+
+- [`239c415`](https://github.com/stefan-karlsson/code-quality/commit/239c4153fd1c72f7a38759112c0cbb19c82dd207) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Make sure to add eslint-import-resolver-typescript as a dependency
+
 ## 1.0.3
 
 ### Patch Changes
