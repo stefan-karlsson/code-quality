@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@aviene/eslint-config-base": "workspace:^",
-    "eslint-plugin-n": "^16.6.2"
+    "eslint-plugin-n": "^17.0.0"
   },
   "engines": {
     "node": ">=20"
@@ -31,7 +31,7 @@
     "./style": "./style.mjs"
   },
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": ">=8.56.0"
   },
   "publishConfig": {
     "access": "public"

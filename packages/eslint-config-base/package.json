@@ -29,7 +29,7 @@
     "./style": "./style.mjs"
   },
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": ">=8.56.0"
   },
   "publishConfig": {
     "access": "public"

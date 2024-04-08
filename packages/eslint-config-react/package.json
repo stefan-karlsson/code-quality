@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@aviene/eslint-config-base": "workspace:^",
-    "@babel/core": "^7.24.1",
+    "@babel/core": "^7.24.4",
     "@babel/eslint-parser": "^7.24.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.34.1",
@@ -34,7 +34,7 @@
     "./style": "./style.mjs"
   },
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": ">=8.56.0"
   },
   "publishConfig": {
     "access": "public"
