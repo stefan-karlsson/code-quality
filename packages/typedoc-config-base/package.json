@@ -1,0 +1,34 @@
+{
+  "name": "@aviene/typedoc-config-base",
+  "description": "TypeDoc configuration preset",
+  "version": "0.0.0",
+  "author": {
+    "name": "Stefan Karlsson",
+    "email": "iam@stefan-karlsson.se",
+    "url": "https://stefan-karlsson.se"
+  },
+  "bugs": {
+    "url": "https://github.com/stefan-karlsson/code-quality/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "config",
+    "typedoc"
+  ],
+  "license": "MIT",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "typedoc": "^0.25.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefan-karlsson/code-quality.git"
+  }
+}
