@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git://github.com/stefan-karlsson/code-quality.git"
   },
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@9.0.4",
   "license": "MIT",
   "dependencies": {
     "@changesets/changelog-github": "^0.5.0",
