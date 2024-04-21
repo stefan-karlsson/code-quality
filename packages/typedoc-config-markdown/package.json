@@ -1,7 +1,7 @@
 {
   "name": "@aviene/typedoc-config-markdown",
   "description": "TypeDoc configuration preset that outputs markdown",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",

@@ -1,5 +1,11 @@
 # @aviene/typedoc-config-base
 
+## 1.0.0
+
+### Major Changes
+
+- [`846296c`](https://github.com/stefan-karlsson/code-quality/commit/846296c9f447d547650cf2ece57b377e506a0b01) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Initial release
+
 ## 0.0.1
 
 ### Patch Changes
