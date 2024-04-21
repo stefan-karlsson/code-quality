@@ -2,6 +2,9 @@ name: 🚀 Generate Documentation
 
 on: [push, pull_request]
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  
 jobs:
   release:
     name: 🚀 Release
