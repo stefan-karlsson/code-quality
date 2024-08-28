@@ -11,8 +11,8 @@
     "url": "https://github.com/stefan-karlsson/code-quality/issues"
   },
   "dependencies": {
-    "@aviene/eslint-config-base": "workspace:^",
-    "eslint-plugin-n": "^17.0.0"
+    "@aviene/eslint-config-base": "workspace:*",
+    "eslint-plugin-n": "^17.10.2"
   },
   "engines": {
     "node": ">=20"
@@ -31,7 +31,7 @@
     "./style": "./style.mjs"
   },
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": "9.x"
   },
   "publishConfig": {
     "access": "public"

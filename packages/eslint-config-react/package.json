@@ -11,12 +11,12 @@
     "url": "https://github.com/stefan-karlsson/code-quality/issues"
   },
   "dependencies": {
-    "@aviene/eslint-config-base": "workspace:^",
-    "@babel/core": "^7.24.4",
-    "@babel/eslint-parser": "^7.24.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@aviene/eslint-config-base": "workspace:*",
+    "@babel/core": "^7.25.2",
+    "@babel/eslint-parser": "^7.25.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2"
   },
   "engines": {
     "node": ">=20"
@@ -34,7 +34,7 @@
     "./style": "./style.mjs"
   },
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": "9.x"
   },
   "publishConfig": {
     "access": "public"

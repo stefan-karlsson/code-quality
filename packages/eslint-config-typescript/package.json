@@ -11,10 +11,10 @@
     "url": "https://github.com/stefan-karlsson/code-quality/issues"
   },
   "dependencies": {
-    "@aviene/eslint-config-base": "workspace:^",
-    "@typescript-eslint/eslint-plugin": "^7.6.0",
-    "@typescript-eslint/parser": "^7.6.0",
-    "eslint-import-resolver-typescript": "^3.6.1"
+    "@aviene/eslint-config-base": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint-import-resolver-typescript": "^3.6.3"
   },
   "engines": {
     "node": ">=20"
@@ -33,7 +33,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": "9.x"
   },
   "publishConfig": {
     "access": "public"
