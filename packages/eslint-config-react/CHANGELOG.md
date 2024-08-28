@@ -1,5 +1,16 @@
 # @aviene/eslint-config-react
 
+## 1.4.0
+
+### Minor Changes
+
+- [`e1fca6a`](https://github.com/stefan-karlsson/code-quality/commit/e1fca6af6d4262ba6051d8bb911a9d506522c7e1) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Fix compability issues between eslint v8 and v9 by using fixupPluginRules from the @eslint/compat package. When the packages support eslint v9 we should remove the usage of the @eslint/compat package.
+
+### Patch Changes
+
+- Updated dependencies [[`e1fca6a`](https://github.com/stefan-karlsson/code-quality/commit/e1fca6af6d4262ba6051d8bb911a9d506522c7e1)]:
+  - @aviene/eslint-config-base@1.5.0
+
 ## 1.3.1
 
 ### Patch Changes

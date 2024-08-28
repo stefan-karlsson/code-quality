@@ -1,5 +1,12 @@
 # @aviene/eslint-config-typescript
 
+## 1.4.1
+
+### Patch Changes
+
+- Updated dependencies [[`e1fca6a`](https://github.com/stefan-karlsson/code-quality/commit/e1fca6af6d4262ba6051d8bb911a9d506522c7e1)]:
+  - @aviene/eslint-config-base@1.5.0
+
 ## 1.4.0
 
 ### Minor Changes
