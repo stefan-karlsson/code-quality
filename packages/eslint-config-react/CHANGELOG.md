@@ -1,5 +1,12 @@
 # @aviene/eslint-config-react
 
+## 1.4.1
+
+### Patch Changes
+
+- Updated dependencies [[`bdc8df1`](https://github.com/stefan-karlsson/code-quality/commit/bdc8df13b05e595304a09f7d39ee5f7a7299bafb)]:
+  - @aviene/eslint-config-base@1.6.0
+
 ## 1.4.0
 
 ### Minor Changes
