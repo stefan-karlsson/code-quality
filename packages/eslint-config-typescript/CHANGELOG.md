@@ -1,5 +1,11 @@
 # @aviene/eslint-config-typescript
 
+## 1.4.0
+
+### Minor Changes
+
+- [`44243e9`](https://github.com/stefan-karlsson/code-quality/commit/44243e981dcf398b4ebef3a24b0f2241ba57853b) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Fixed the `@typescript-eslint/only-throw-error` rule that was invalid
+
 ## 1.3.1
 
 ### Patch Changes
