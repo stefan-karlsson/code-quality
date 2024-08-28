@@ -1,9 +1,10 @@
-import imports from 'eslint-plugin-import'
+import { fixupPluginRules } from "@eslint/compat";
+import imports from 'eslint-plugin-import';
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
   plugins: {
-    import: imports,
+    import: fixupPluginRules(imports),
   },
   rules: {
     // Require Consistent Returns

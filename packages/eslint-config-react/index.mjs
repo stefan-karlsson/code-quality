@@ -1,3 +1,4 @@
+import { fixupPluginRules } from "@eslint/compat";
 import parser from "@babel/eslint-parser";
 import base from "@aviene/eslint-config-base";
 import react from "eslint-plugin-react";
@@ -9,8 +10,8 @@ const config = {
   plugins: {
     ...base.plugins,
     react,
-    "jsx-a11y": a11y,
-    "react-hooks": hooks,
+    "jsx-a11y": fixupPluginRules(a11y),
+    "react-hooks": fixupPluginRules(hooks),
   },
   languageOptions: {
     parser,

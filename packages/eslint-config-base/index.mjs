@@ -1,10 +1,11 @@
-import imports from 'eslint-plugin-import'
-import stylistic from '@stylistic/eslint-plugin'
+import { fixupPluginRules } from "@eslint/compat";
+import imports from 'eslint-plugin-import';
+import stylistic from '@stylistic/eslint-plugin';
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
   plugins: {
-    import: imports,
+    import: fixupPluginRules(imports),
     '@stylistic': stylistic,
   },
   rules: {
@@ -605,8 +606,7 @@ const config = {
     'import/first': 'error',
 
     // Enforces names exist at the time they are dereferenced, when imported as a full namespace
-    // TODO: Re-enable when eslint-plugin-import gets ESLint flat config support
-    // 'import/namespace': 'error',
+    'import/namespace': 'error',
 
     // Forbid import of modules using absolute paths
     // Node.js allows the import of modules using an absolute path such as */home/xyz/file.js*. That
