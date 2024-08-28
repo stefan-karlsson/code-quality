@@ -1,7 +1,7 @@
 import node from 'eslint-plugin-n';
 import base from '@aviene/eslint-config-base';
 
-/** @type {import("eslint").Linter.FlatConfig} */
+/** @type {import("eslint").Linter.Config} */
 const config = {
   plugins: {
     ...base.plugins,
