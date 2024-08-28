@@ -14,7 +14,14 @@ const config = {
     }
   },
   settings: {
-    'import/resolver': { typescript: {} }
+		"import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".mts", ".tsx", ".mtx"]
+    },
+    'import/resolver': {
+			typescript: {
+				"alwaysTryTypes": true,
+			}
+		}
   },
   rules: {
     ...base.rules,

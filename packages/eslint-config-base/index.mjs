@@ -1,11 +1,11 @@
 import { fixupPluginRules } from "@eslint/compat";
-import imports from 'eslint-plugin-import';
+import importPlugin from "eslint-plugin-import";
 import stylistic from '@stylistic/eslint-plugin';
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
   plugins: {
-    import: fixupPluginRules(imports),
+		import: fixupPluginRules(importPlugin),
     '@stylistic': stylistic,
   },
   rules: {

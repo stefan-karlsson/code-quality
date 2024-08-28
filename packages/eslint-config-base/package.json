@@ -30,7 +30,7 @@
     "./style": "./style.mjs"
   },
   "peerDependencies": {
-    "eslint": "8.x"
+    "eslint": "9.x"
   },
   "publishConfig": {
     "access": "public"
