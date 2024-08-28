@@ -9,7 +9,10 @@ const config = {
     '@typescript-eslint': ts
   },
   languageOptions: {
-    parser
+    parser: parser,
+    parserOptions: {
+      projectService: true
+    }
   },
   settings: {
     'import/resolver': { typescript: {} }
