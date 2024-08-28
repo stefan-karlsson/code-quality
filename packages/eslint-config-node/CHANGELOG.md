@@ -1,5 +1,11 @@
 # @aviene/eslint-config-node
 
+## 1.3.1
+
+### Patch Changes
+
+- [`275ad44`](https://github.com/stefan-karlsson/code-quality/commit/275ad44c29dbcb87b628d7b8bcab9857ce0415a4) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Use `typescript-eslint` package in favor of `@typescript-eslint/\*` packages. Background: https://typescript-eslint.io/packages/typescript-eslint/#migrating-from-legacy-config-setups
+
 ## 1.3.0
 
 ### Minor Changes
