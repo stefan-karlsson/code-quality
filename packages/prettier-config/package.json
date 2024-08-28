@@ -1,7 +1,7 @@
 {
   "name": "@aviene/prettier-config",
   "description": "ESLint config for Prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
