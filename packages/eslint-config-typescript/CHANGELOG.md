@@ -1,5 +1,11 @@
 # @aviene/eslint-config-typescript
 
+## 1.2.1
+
+### Patch Changes
+
+- [`ad668a5`](https://github.com/stefan-karlsson/code-quality/commit/ad668a5e9e9b56e060a1242065737c93287f8c27) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Add support for linting with type information
+
 ## 1.2.0
 
 ### Minor Changes
