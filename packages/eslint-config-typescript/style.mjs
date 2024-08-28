@@ -1,11 +1,11 @@
 import style from '@aviene/eslint-config-base/style';
-import ts from '@typescript-eslint/eslint-plugin';
+import tsEslint from 'typescript-eslint';
 
-/** @type {import("eslint").Linter.FlatConfig} */
+/** @type {import("eslint").Linter.Config} */
 const config = {
   plugins: {
     ...style.plugins,
-    '@typescript-eslint': ts
+    '@typescript-eslint': tsEslint.plugin
   },
   rules: {
     ...style.rules,

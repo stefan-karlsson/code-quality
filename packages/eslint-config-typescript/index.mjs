@@ -1,15 +1,14 @@
 import base from '@aviene/eslint-config-base';
-import ts from '@typescript-eslint/eslint-plugin';
-import parser from '@typescript-eslint/parser';
+import tsEslint from 'typescript-eslint';
 
-/** @type {import("eslint").Linter.FlatConfig} */
+/** @type {import("eslint").Linter.Config} */
 const config = {
   plugins: {
     ...base.plugins,
-    '@typescript-eslint': ts
+    '@typescript-eslint': tsEslint.plugin
   },
   languageOptions: {
-    parser: parser,
+    parser: tsEslint.parser,
     parserOptions: {
       projectService: true
     }
@@ -277,8 +276,8 @@ const config = {
     // the `Error` object as base objects for user-defined exceptions. The fundamental benefit of
     // `Error` objects is that they automatically keep track of where they were built and
     // originated.
-    '@typescript-eslint/no-throw-literal': [
-      base.rules['no-throw-literal'],
+    '@typescript-eslint/only-throw-error': [
+      base.rules['only-throw-error'],
       {
         allowThrowingAny: false,
         allowThrowingUnknown: false

@@ -4,21 +4,20 @@
 // @aviene/eslint-config-react configuration installed.
 // eslint-disable-next-line import/no-extraneous-dependencies
 import react from '@aviene/eslint-config-react';
-import ts from '@typescript-eslint/eslint-plugin';
-import parser from '@typescript-eslint/parser';
+import tsEslint from 'typescript-eslint';
 
-/** @type {import("eslint").Linter.FlatConfig} */
+/** @type {import("eslint").Linter.Config} */
 const config = {
   plugins: {
     ...react.plugins,
-    '@typescript-eslint': ts
+    '@typescript-eslint': tsEslint.plugin
   },
   settings: {
     ...react.settings
   },
   languageOptions: {
     ...react.languageOptions,
-    parser
+    parser: tsEslint.parser
   },
   rules: {
     ...react.rules,
