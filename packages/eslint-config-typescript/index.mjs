@@ -277,7 +277,7 @@ const config = {
     // `Error` objects is that they automatically keep track of where they were built and
     // originated.
     '@typescript-eslint/only-throw-error': [
-      base.rules['only-throw-error'],
+      base.rules['no-throw-literal'],
       {
         allowThrowingAny: false,
         allowThrowingUnknown: false
