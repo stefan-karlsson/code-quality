@@ -1,5 +1,11 @@
 # @aviene/eslint-config-base
 
+## 1.6.0
+
+### Minor Changes
+
+- [`bdc8df1`](https://github.com/stefan-karlsson/code-quality/commit/bdc8df13b05e595304a09f7d39ee5f7a7299bafb) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Support "eslint-plugin-import" using eslint v9
+
 ## 1.5.0
 
 ### Minor Changes

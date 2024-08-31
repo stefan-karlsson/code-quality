@@ -1,7 +1,7 @@
 {
   "name": "@aviene/eslint-config-typescript",
   "description": "ESLint config for TypeScript projects",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
@@ -13,7 +13,7 @@
   "dependencies": {
     "@aviene/eslint-config-base": "workspace:*",
     "typescript-eslint": "^8.3.0",
-		"@typescript-eslint/parser": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
     "eslint-import-resolver-typescript": "^3.6.3"
   },
   "engines": {
