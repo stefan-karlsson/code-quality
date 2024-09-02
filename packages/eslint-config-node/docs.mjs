@@ -175,7 +175,7 @@ const config = {
 		'jsdoc/sort-tags': 'off',
 
 		// Enforces specific rules for the formatting of lines within JSDoc comments.
-		'jsdoc/tag-lines': 'warn',
+		"jsdoc/tag-lines": ["warn", "any", {"startLines": 1}],
 
 		// Ensures that text in JSDoc comments is correctly escaped where necessary.
 		'jsdoc/text-escaping': 'off',
