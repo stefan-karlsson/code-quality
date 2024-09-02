@@ -1,5 +1,16 @@
 # @aviene/eslint-config-node
 
+## 1.4.0
+
+### Minor Changes
+
+- [`0487e18`](https://github.com/stefan-karlsson/code-quality/commit/0487e189011c92879592c93066fc0a7315feb74c) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Trying to fix typescript parser
+
+### Patch Changes
+
+- Updated dependencies [[`0487e18`](https://github.com/stefan-karlsson/code-quality/commit/0487e189011c92879592c93066fc0a7315feb74c)]:
+  - @aviene/eslint-config-base@1.8.0
+
 ## 1.3.4
 
 ### Patch Changes
