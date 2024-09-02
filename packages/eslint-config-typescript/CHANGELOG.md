@@ -1,5 +1,11 @@
 # @aviene/eslint-config-typescript
 
+## 1.6.0
+
+### Minor Changes
+
+- [`5cdeca9`](https://github.com/stefan-karlsson/code-quality/commit/5cdeca953b9725894a701bd7adb4cf0433120657) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Added path to tsconfig.json so that the import resolver works as expected
+
 ## 1.5.0
 
 ### Minor Changes
