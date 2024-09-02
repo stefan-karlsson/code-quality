@@ -1,5 +1,6 @@
 import base from '@aviene/eslint-config-base';
 import tsEslint from 'typescript-eslint';
+import parser from '@typescript-eslint/parser';
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
@@ -8,8 +9,13 @@ const config = {
     '@typescript-eslint': tsEslint.plugin
   },
   languageOptions: {
-    parser: tsEslint.parser,
+    parser,
     parserOptions: {
+			ecmaVersion: 'latest',
+			ecmaFeatures: {
+				jsx: true,
+			},
+			sourceType: 'module',
       projectService: true
     }
   },
@@ -22,7 +28,7 @@ const config = {
 				"alwaysTryTypes": true,
 				"project": [
 					"packages/*/tsconfig.json",
-					"packages/*/*/tsconfig.json",
+					"packages/framework/*/tsconfig.json",
 				]
 			}
 		}
@@ -30,7 +36,7 @@ const config = {
   rules: {
     ...base.rules,
     // Disabled because it generates false positives with interface declarations and TypeScript
-    // blows up anyway during compilation when it encouters an undefined variable.
+    // blows up anyway during compilation when it encounters an undefined variable.
     'no-undef': 'off',
 
     // Require that member overloads be consecutive
@@ -38,7 +44,7 @@ const config = {
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
 
     // Requires using either T[] or Array<T> for arrays
-    // This rule aims to standardise usage of array types within your codebase.
+    // This rule aims to standardize usage of array types within your codebase.
     '@typescript-eslint/array-type': [
       'warn',
       {

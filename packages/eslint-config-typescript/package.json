@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@aviene/eslint-config-base": "workspace:*",
-    "typescript-eslint": "^8.3.0",
-    "@typescript-eslint/parser": "^8.3.0",
+    "typescript-eslint": "^8.4.0",
+		"@typescript-eslint/parser": "^8.4.0",
     "eslint-import-resolver-typescript": "^3.6.3"
   },
   "engines": {

@@ -5,6 +5,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import react from '@aviene/eslint-config-react';
 import tsEslint from 'typescript-eslint';
+import parser from '@typescript-eslint/parser';
 
 /** @type {import("eslint").Linter.Config} */
 const config = {
@@ -17,7 +18,7 @@ const config = {
   },
   languageOptions: {
     ...react.languageOptions,
-    parser: tsEslint.parser
+    parser
   },
   rules: {
     ...react.rules,
