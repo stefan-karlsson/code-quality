@@ -1,5 +1,11 @@
 # @aviene/eslint-config-typescript
 
+## 1.9.0
+
+### Minor Changes
+
+- [`a0f8e03`](https://github.com/stefan-karlsson/code-quality/commit/a0f8e037ebe12e8abd7b3a98c5b8268cc47bdced) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Added d.ts extension to the typescript parser
+
 ## 1.8.2
 
 ### Patch Changes
