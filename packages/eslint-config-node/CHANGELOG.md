@@ -1,5 +1,16 @@
 # @aviene/eslint-config-node
 
+## 1.5.0
+
+### Minor Changes
+
+- [`fc7d7ac`](https://github.com/stefan-karlsson/code-quality/commit/fc7d7acf563c5e5e71ef8eefc5d7944093a25ca5) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Added ./docs entrypoint to node config
+
+### Patch Changes
+
+- Updated dependencies [[`fc7d7ac`](https://github.com/stefan-karlsson/code-quality/commit/fc7d7acf563c5e5e71ef8eefc5d7944093a25ca5)]:
+  - @aviene/eslint-config-base@1.9.0
+
 ## 1.4.0
 
 ### Minor Changes
