@@ -1,5 +1,11 @@
 # @aviene/eslint-config-base
 
+## 1.7.0
+
+### Minor Changes
+
+- [`09c992c`](https://github.com/stefan-karlsson/code-quality/commit/09c992c61385297d3cbc13c3fc29e344b089d25c) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Turned off import checking of commonjs imports
+
 ## 1.6.0
 
 ### Minor Changes

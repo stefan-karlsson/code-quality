@@ -1,5 +1,17 @@
 # @aviene/eslint-config-typescript
 
+## 1.7.0
+
+### Minor Changes
+
+- [`29a4a9c`](https://github.com/stefan-karlsson/code-quality/commit/29a4a9cb7ac784b0f33d9c56026671667b69cd00) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Encourage the use of parameter properties in class constructors
+  This rule allows the use of parameter properties in constructors, reducing the need to explicitly declare all properties in the class.
+
+### Patch Changes
+
+- Updated dependencies [[`09c992c`](https://github.com/stefan-karlsson/code-quality/commit/09c992c61385297d3cbc13c3fc29e344b089d25c)]:
+  - @aviene/eslint-config-base@1.7.0
+
 ## 1.6.0
 
 ### Minor Changes
