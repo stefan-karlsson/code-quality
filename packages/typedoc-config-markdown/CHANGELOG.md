@@ -1,5 +1,16 @@
 # @aviene/typedoc-config-markdown
 
+## 1.2.0
+
+### Minor Changes
+
+- [`0487e18`](https://github.com/stefan-karlsson/code-quality/commit/0487e189011c92879592c93066fc0a7315feb74c) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Trying to fix typescript parser
+
+### Patch Changes
+
+- Updated dependencies [[`0487e18`](https://github.com/stefan-karlsson/code-quality/commit/0487e189011c92879592c93066fc0a7315feb74c)]:
+  - @aviene/typedoc-config-base@1.2.0
+
 ## 1.1.0
 
 ### Minor Changes
