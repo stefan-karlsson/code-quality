@@ -21,7 +21,7 @@ const config = {
   },
   settings: {
 		"import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".mts", ".tsx", ".mtx"]
+      "@typescript-eslint/parser": [".ts", ".mts", ".tsx", ".mtx", "d.ts"]
     },
     'import/resolver': {
 			typescript: {
