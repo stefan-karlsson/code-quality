@@ -1,7 +1,7 @@
 {
   "name": "@aviene/eslint-config-base",
   "description": "ESLint configuration preset",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "author": {
     "name": "Stefan Karlsson",
     "email": "iam@stefan-karlsson.se",
@@ -13,7 +13,7 @@
   "dependencies": {
     "@stylistic/eslint-plugin": "^2.6.4",
     "eslint-plugin-import": "^2.29.1",
-		"eslint-plugin-jsdoc": "^50.2.2",
+    "eslint-plugin-jsdoc": "^50.2.2",
     "@eslint/compat": "^1.1.1"
   },
   "engines": {
@@ -29,7 +29,7 @@
     ".": "./index.mjs",
     "./optional": "./optional.mjs",
     "./style": "./style.mjs",
-		"./docs": "./docs.mjs"
+    "./docs": "./docs.mjs"
   },
   "peerDependencies": {
     "eslint": "9.x"

@@ -1,5 +1,12 @@
 # @aviene/eslint-config-node
 
+## 1.3.4
+
+### Patch Changes
+
+- Updated dependencies [[`09c992c`](https://github.com/stefan-karlsson/code-quality/commit/09c992c61385297d3cbc13c3fc29e344b089d25c)]:
+  - @aviene/eslint-config-base@1.7.0
+
 ## 1.3.3
 
 ### Patch Changes
