@@ -10,7 +10,7 @@ const config = {
   plugins: {
     ...base.plugins,
     react,
-    "jsx-a11y": fixupPluginRules(a11y),
+    "jsx-a11y": a11y,
     "react-hooks": fixupPluginRules(hooks),
   },
   languageOptions: {
