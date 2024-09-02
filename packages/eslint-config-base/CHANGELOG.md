@@ -1,5 +1,11 @@
 # @aviene/eslint-config-base
 
+## 1.10.0
+
+### Minor Changes
+
+- [`e5c4050`](https://github.com/stefan-karlsson/code-quality/commit/e5c4050b33fcf994fa37e8209e5baaae8d477c30) Thanks [@stefan-karlsson](https://github.com/stefan-karlsson)! - Disable import/export rule since it fails using eslint v9
+
 ## 1.9.0
 
 ### Minor Changes
