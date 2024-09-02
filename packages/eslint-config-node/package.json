@@ -27,6 +27,7 @@
   "exports": {
     ".": "./index.mjs",
     "./v20": "./v20.mjs",
+		"./v22": "./v22.mjs",
     "./optional": "./optional.mjs",
     "./style": "./style.mjs"
   },
