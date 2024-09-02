@@ -591,9 +591,7 @@ const config = {
     'vars-on-top': 'warn',
 
     // Ensure an imported module can be resolved to a module on the local filesystem
-    'import/no-unresolved': ['error', {
-      commonjs: true,
-    }],
+    'import/no-unresolved': 'error',
 
     // Verifies that all named imports are part of the set of named exports in the referenced module
     'import/named': 'error',
