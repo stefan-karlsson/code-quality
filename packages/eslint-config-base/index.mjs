@@ -604,7 +604,8 @@ const config = {
     'import/first': 'error',
 
     // Enforces names exist at the time they are dereferenced, when imported as a full namespace
-    'import/namespace': 'error',
+		 // TODO: Re-enable this rule when support for eslint v9 is added
+    //'import/namespace': 'error',
 
     // Forbid import of modules using absolute paths
     // Node.js allows the import of modules using an absolute path such as */home/xyz/file.js*. That
