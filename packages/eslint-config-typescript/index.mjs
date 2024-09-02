@@ -238,13 +238,13 @@ const config = {
     // Using non-null assertions cancels the benefits of the strict null-checking mode.
     '@typescript-eslint/no-non-null-assertion': 'warn',
 
-    // Disallow the use of parameter properties in class constructors
-    // This rule disallows the use of parameter properties in constructors, forcing the user to
-    // explicitly declare all properties in the class.
+    // Encourage the use of parameter properties in class constructors
+		// This rule allows the use of parameter properties in constructors,
+		// reducing the need to explicitly declare all properties in the class.
     '@typescript-eslint/parameter-properties': [
       'warn',
       {
-        prefer: 'class-property'
+        prefer: 'parameter-property'
       }
     ],
 
