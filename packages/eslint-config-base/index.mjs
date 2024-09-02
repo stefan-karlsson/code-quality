@@ -612,7 +612,8 @@ const config = {
     'import/no-absolute-path': 'error',
 
     // Reports funny business with exports, like repeated exports of names or defaults
-    'import/export': 'error',
+    // TODO: Re-enable this rule when support for eslint v9 is added
+		//'import/export': 'error',
 
     // Reports if a module's default export is unnamed
     // Ensuring that default exports are named helps improve the grepability of the codebase by
