@@ -1,4 +1,3 @@
-import { fixupPluginRules } from "@eslint/compat";
 import jsdoc from 'eslint-plugin-jsdoc';
 
 /** @type {import("eslint").Linter.Config} */

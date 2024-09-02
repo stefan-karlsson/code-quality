@@ -33,9 +33,6 @@ importers:
       eslint-plugin-import:
         specifier: ^2.29.1
         version: 2.29.1(@typescript-eslint/parser@8.4.0(eslint@9.9.1)(typescript@5.4.4))(eslint-import-resolver-typescript@3.6.3)(eslint@9.9.1)
-      eslint-plugin-jsdoc:
-        specifier: ^50.2.2
-        version: 50.2.2(eslint@9.9.1)
 
   packages/eslint-config-node:
     dependencies:
@@ -45,6 +42,9 @@ importers:
       eslint:
         specifier: 9.x
         version: 9.9.1
+      eslint-plugin-jsdoc:
+        specifier: ^50.2.2
+        version: 50.2.2(eslint@9.9.1)
       eslint-plugin-n:
         specifier: ^17.10.2
         version: 17.10.2(eslint@9.9.1)
